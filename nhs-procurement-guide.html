@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Complete Guide to NHS Procurement for Suppliers | Kestrel</title>
+  <meta name="description" content="Everything UK suppliers need to know about NHS procurement: key portals, framework agreements, ICB changes, bid management, and how to track opportunities without missing deadlines." />
+  <link rel="canonical" href="https://kestrel.alvento.ltd/guides/nhs-procurement-guide" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Complete Guide to NHS Procurement for Suppliers",
+    "description": "Everything UK suppliers need to know about NHS procurement: key portals, framework agreements, ICB changes, bid management, and how to track opportunities without missing deadlines.",
+    "author": {
+      "@type": "Organization",
+      "name": "Kestrel by Alvento",
+      "url": "https://kestrel.alvento.ltd"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Alvento",
+      "url": "https://alvento.ltd"
+    },
+    "datePublished": "2026-05-11",
+    "dateModified": "2026-05-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://kestrel.alvento.ltd/guides/nhs-procurement-guide"
+    },
+    "keywords": ["NHS procurement", "NHS tender alerts", "NHS procurement monitoring", "Contracts Finder", "Find a Tender", "NHS framework opportunities", "NHS SBS", "CCS frameworks", "NHS bid management", "ICB procurement"]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the difference between Contracts Finder and Find a Tender?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Contracts Finder is the UK government portal for publishing contract opportunities and awards below the procurement threshold. Find a Tender (FTS) replaced the EU's TED system post-Brexit and is used for above-threshold contracts, typically above £138,760 for central government bodies or £213,477 for sub-central authorities such as NHS trusts. NHS organisations must publish on both portals depending on contract value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are NHS framework agreements and how do suppliers join them?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NHS framework agreements are pre-approved supplier lists established by bodies like NHS Shared Business Services (NHS SBS) or the Crown Commercial Service (CCS). Once a supplier is accepted onto a framework, NHS organisations can call off contracts directly without running a full tender each time. Suppliers apply during a framework's open window, which is advertised on Find a Tender and the relevant body's portal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How did Integrated Care Boards (ICBs) change NHS procurement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Health and Care Act 2022 replaced Clinical Commissioning Groups (CCGs) with Integrated Care Boards (ICBs) from July 2022. ICBs now hold commissioning budgets and procurement authority for a wide range of health services in their geography. This means suppliers must engage with ICB procurement teams rather than CCG contacts, and opportunities are often published under ICB names on Contracts Finder and Find a Tender."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are NHS tender alerts and how do they work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NHS tender alerts are automated notifications that inform suppliers when a new contract opportunity matching their criteria is published. They can be set up manually via Contracts Finder and Find a Tender keyword searches, or through third-party NHS procurement monitoring tools that aggregate across multiple portals and send structured, filtered alerts so suppliers never miss relevant deadlines."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do award notices matter for NHS suppliers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Award notices reveal which suppliers won contracts and at what value, giving competitors critical intelligence: who is active in a market, likely contract end dates (triggering re-procurement), and the pricing range commissioners are accepting. Monitoring award notices is one of the most underused NHS procurement monitoring tactics for building a competitive pipeline strategy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What common mistakes do suppliers make when responding to NHS tenders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The most common mistakes include: missing pre-qualification questionnaire (PQQ) deadlines, failing to demonstrate NHS-specific social value commitments, generic responses that do not address the commissioner's stated priorities, incorrect or missing mandatory certifications such as ISO 9001 or Cyber Essentials, and underestimating the scoring weight given to price versus quality criteria."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #fafafa; --surface: #ffffff; --surface-alt: #f4f4f6;
+      --text: #0a0a0a; --text-2: #4a4a5a; --text-3: #9a9aaa;
+      --border: #e7e9f0; --accent: #0a2fff; --accent-hover: #0020dd;
+      --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --max: 740px;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "DM Sans", Inter, ui-sans-serif, system-ui, sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    a { color: var(--accent); }
+    .wrap { width: min(var(--max), calc(100vw - 32px)); margin: 0 auto; }
+    nav { border-bottom: 1px solid var(--border); background: rgba(250,250,250,0.9); backdrop-filter: blur(14px); position: sticky; top: 0; z-index: 10; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
+    .brand { font-weight: 700; color: var(--text); font-size: 1rem; text-decoration: none; }
+    .nav-back { color: var(--text-2); font-size: 0.9rem; text-decoration: none; }
+    main { padding: 48px 0 80px; }
+    .meta { color: var(--text-3); font-size: 0.88rem; margin-bottom: 32px; }
+    h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); letter-spacing: -0.04em; margin: 0 0 16px; line-height: 1.1; }
+    h2 { font-size: 1.4rem; letter-spacing: -0.03em; margin: 40px 0 12px; color: var(--text); }
+    h3 { font-size: 1.1rem; letter-spacing: -0.02em; margin: 28px 0 8px; color: var(--text); }
+    p { margin: 0 0 16px; color: var(--text-2); }
+    ul, ol { padding-left: 20px; margin: 0 0 16px; color: var(--text-2); }
+    li { margin-bottom: 6px; }
+    .callout { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--radius-sm); padding: 16px 18px; margin: 24px 0; }
+    .callout p { margin: 0; }
+    .cta-inline { background: var(--surface); border: 1px solid rgba(10,47,255,0.15); border-radius: var(--radius-lg); padding: 24px; margin: 40px 0; }
+    .cta-inline h3 { margin: 0 0 8px; }
+    .cta-inline p { margin: 0 0 16px; color: var(--text-2); }
+    .btn { display: inline-flex; align-items: center; padding: 11px 18px; border-radius: var(--radius-sm); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.95rem; text-decoration: none; }
+    .btn:hover { background: var(--accent-hover); }
+    table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 0.95rem; }
+    th { background: var(--surface-alt); color: var(--text); padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--text-2); }
+    footer { border-top: 1px solid var(--border); padding: 24px 0; color: var(--text-3); font-size: 0.88rem; text-align: center; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="nav-inner">
+      <a href="/" class="brand">Kestrel</a>
+      <a href="/" class="nav-back">← Back to Kestrel</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <p class="meta">Published 11 May 2026 &middot; 15 min read &middot; NHS Procurement</p>
+
+    <h1>The Complete Guide to NHS Procurement for Suppliers</h1>
+
+    <p>The NHS spends over £30 billion a year on goods and services from external suppliers. That figure covers everything from clinical consumables and diagnostic equipment to facilities management, digital systems, and professional services. For any supplier targeting the public sector, understanding how NHS procurement works is not optional — it is the foundation of a viable pipeline strategy.</p>
+
+    <p>This guide covers the full landscape: the portals that matter, how framework agreements work, what changed when Integrated Care Boards replaced Clinical Commissioning Groups, how to read award notices strategically, and the practical steps to build a supplier profile that wins. Whether you are new to public sector selling or looking to systematise your NHS bid management, the information below gives you an accurate, up-to-date picture of how NHS procurement actually operates in 2026.</p>
+
+    <h2>The NHS Procurement Landscape: An Overview</h2>
+
+    <p>NHS procurement is not a single monolithic system. It is a layered ecosystem of buyers, frameworks, portals, and regulations that has evolved significantly over the past decade. At its simplest, NHS procurement follows the same legal framework that governs all UK public sector purchasing: the Procurement Act 2023, which replaced the Public Contracts Regulations 2015 and came into force in February 2025.</p>
+
+    <p>The Act introduced several changes that matter directly to suppliers: a new central digital platform for notices, a strengthened duty to consider SMEs, and a revised threshold regime. But the underlying logic of NHS procurement — competitive tendering, transparency obligations, and framework call-offs — remained intact.</p>
+
+    <p>NHS buyers fall into several broad categories:</p>
+
+    <ul>
+      <li><strong>NHS Trusts and Foundation Trusts</strong> — acute, mental health, community, and ambulance trusts that run clinical services and procure independently within national guidance.</li>
+      <li><strong>Integrated Care Boards (ICBs)</strong> — statutory bodies that commission health services for their geography and hold significant procurement budgets.</li>
+      <li><strong>NHS England</strong> — commissions specialised services and holds national contracts for a range of clinical and non-clinical goods.</li>
+      <li><strong>Shared service bodies</strong> — NHS Shared Business Services (NHS SBS) and NHS Supply Chain manage procurement on behalf of multiple NHS organisations.</li>
+      <li><strong>Crown Commercial Service (CCS)</strong> — a cross-government body whose frameworks are heavily used by NHS buyers.</li>
+    </ul>
+
+    <p>Understanding which buyer type is purchasing what — and through which route — is the starting point for any credible NHS procurement monitoring strategy.</p>
+
+    <div class="callout">
+      <p>The NHS is not one buyer. It is hundreds of separate contracting authorities, each with their own procurement calendar, preferred portals, and internal approval chains. Treating it as a single target is one of the most common mistakes new suppliers make.</p>
+    </div>
+
+    <h2>Key Procurement Portals Every Supplier Must Know</h2>
+
+    <p>NHS opportunities are published across several portals. No single platform captures everything. Suppliers who rely on only one source will miss opportunities routinely.</p>
+
+    <h3>Contracts Finder</h3>
+
+    <p>Contracts Finder is the UK government's official portal for public sector contract opportunities and award notices. All NHS contracting authorities are required to publish opportunities above £12,000 here. In practice, Contracts Finder is most useful for below-threshold and mid-value opportunities that would not appear on Find a Tender.</p>
+
+    <p>The portal also carries award notices, which record the outcome of completed procurements. These are invaluable for competitive intelligence. A well-set search on Contracts Finder, combined with saved alerts, can surface a steady stream of relevant NHS tender alerts across most categories of spend.</p>
+
+    <p>Limitations: the search interface is basic, keyword matching is imprecise, and there is no structured filtering by NHS buyer type. Suppliers who want reliable NHS procurement monitoring will need to supplement Contracts Finder with other sources.</p>
+
+    <h3>Find a Tender (FTS)</h3>
+
+    <p>Find a Tender replaced the EU's Tenders Electronic Daily (TED) system after Brexit. Under the Procurement Act 2023, NHS trusts and ICBs must publish above-threshold contract notices here. The current thresholds are approximately £213,477 for sub-central authorities (which includes most NHS bodies) — though these are updated periodically.</p>
+
+    <p>Find a Tender is the authoritative source for high-value NHS contracts. Any significant procurement — major IT systems, large clinical service contracts, estates and facilities projects — will appear here. The platform allows email alerts based on CPV (Common Procurement Vocabulary) codes, which are the standard classification system for public sector goods and services. Learning the CPV codes relevant to your category is a time investment that pays off quickly.</p>
+
+    <h3>NHS Shared Business Services (NHS SBS)</h3>
+
+    <p>NHS SBS is a joint venture between the NHS and Sopra Steria that provides procurement and back-office services to NHS organisations. It manages a significant portfolio of NHS framework opportunities across categories including finance, HR, estates, ICT, and professional services.</p>
+
+    <p>NHS SBS runs its own eTendering portal, Bravo Solutions (now rebranded under the NHS SBS identity), where suppliers must register to respond to opportunities managed by NHS SBS on behalf of client trusts. Registering on this portal is separate from Contracts Finder and Find a Tender — it is not optional if NHS SBS-managed frameworks are relevant to your category.</p>
+
+    <p>NHS SBS frameworks are particularly important for professional services suppliers. When an NHS SBS framework is live for your category, the majority of call-off procurements in that space will go through it rather than via open tender, making framework membership effectively a prerequisite for winning business.</p>
+
+    <h3>Crown Commercial Service (CCS) Frameworks</h3>
+
+    <p>CCS frameworks are used extensively across the NHS because they allow NHS buyers to procure quickly and compliantly without running a full competitive process. CCS manages frameworks across categories including technology, professional services, fleet, travel, and facilities. Key frameworks used by NHS buyers include G-Cloud (cloud software and services), Digital Outcomes and Specialists, and various management consultancy and workforce frameworks.</p>
+
+    <p>Joining a CCS framework requires responding to an open competition when the framework is re-let, typically every two to four years. The application process is rigorous but the return is significant: once listed, NHS buyers can approach you directly for call-off contracts within the framework scope.</p>
+
+    <p>Monitoring CCS framework re-lets is therefore a core element of NHS procurement monitoring for any supplier whose services fall within CCS categories. Missing the application window means waiting for the next re-let cycle — often two or more years away.</p>
+
+    <div class="callout">
+      <p>CCS frameworks and NHS SBS frameworks between them cover a substantial proportion of NHS non-clinical spend. If your category has an active framework and you are not on it, you are competing with one hand tied behind your back.</p>
+    </div>
+
+    <h2>Framework Agreements vs Open Tenders</h2>
+
+    <p>One of the most important strategic questions for any NHS supplier is whether to pursue framework membership, respond to open tenders, or both. These routes to market have different dynamics, different timelines, and different win probabilities.</p>
+
+    <h3>Framework Agreements</h3>
+
+    <p>A framework agreement is a pre-qualification arrangement between a buyer (or a group of buyers) and a set of approved suppliers. The framework sets out the terms and conditions that will govern call-off contracts. When an NHS buyer wants to procure something covered by a framework, they either select a supplier directly (single-supplier frameworks or direct award rules) or run a mini-competition among framework members.</p>
+
+    <p>NHS framework opportunities offer several advantages for suppliers: reduced competition (only framework members can bid), faster procurement timelines, and lower administrative burden per opportunity. The trade-off is the upfront investment required to get onto the framework in the first place.</p>
+
+    <p>Frameworks are established for a fixed period — typically two to four years — and are not open to new entrants once established. This makes the framework application window a high-stakes moment. Missing it is costly.</p>
+
+    <h3>Open Tenders</h3>
+
+    <p>Open tenders are procurements where any supplier can express interest and submit a bid. They tend to be used for high-value or complex contracts that do not fit neatly within existing framework scope, for categories where no framework exists, or where the buying organisation has decided the market is better served through open competition.</p>
+
+    <p>Open tenders are more resource-intensive to respond to but can represent significant contract values. They also offer an opportunity to enter relationships with NHS buyers that would otherwise be closed if frameworks dominate the category.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Route</th>
+          <th>Who can bid</th>
+          <th>Timeline</th>
+          <th>Typical use</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Open tender</td>
+          <td>Any supplier</td>
+          <td>6–20 weeks</td>
+          <td>High value, bespoke, or uncovered categories</td>
+        </tr>
+        <tr>
+          <td>Framework mini-competition</td>
+          <td>Framework members only</td>
+          <td>2–6 weeks</td>
+          <td>Most repeat NHS spend categories</td>
+        </tr>
+        <tr>
+          <td>Framework direct award</td>
+          <td>Single framework member</td>
+          <td>Days to weeks</td>
+          <td>Where framework rules permit and value thresholds allow</td>
+        </tr>
+        <tr>
+          <td>Dynamic Purchasing System (DPS)</td>
+          <td>Any qualifying supplier (open throughout)</td>
+          <td>Varies</td>
+          <td>Categories with evolving supplier markets</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>How ICBs Changed NHS Procurement Post-ICS Integration</h2>
+
+    <p>The Health and Care Act 2022 is the most significant structural change to the NHS in a decade. From 1 July 2022, 42 Integrated Care Systems (ICSs) became the statutory framework for health planning in England, each comprising an Integrated Care Board (ICB) and an Integrated Care Partnership (ICP).</p>
+
+    <p>For suppliers, the critical change is that Clinical Commissioning Groups (CCGs) — which held commissioning and procurement authority for primary and community services — were abolished and their functions transferred to ICBs. This had immediate practical consequences:</p>
+
+    <ul>
+      <li>Supplier relationships with CCG procurement contacts became redundant overnight. ICBs built new teams, often with different personnel and different priorities.</li>
+      <li>Contract registers and procurement pipelines were migrated — or in many cases rebuilt — under ICB names. Suppliers monitoring Contracts Finder for CCG activity needed to switch their searches to ICB names.</li>
+      <li>ICBs operate at a larger geographic footprint than most CCGs did. The average ICB covers a population of 1.3 million, compared to CCGs that often served populations of 200,000 to 500,000. This means larger contract values but also more complex stakeholder landscapes.</li>
+      <li>ICB procurement functions have varied significantly in their maturity. Some ICBs inherited well-developed CCG procurement teams; others have been building capability from scratch.</li>
+    </ul>
+
+    <p>ICB procurement is now a distinct and important target for suppliers of community health services, mental health services, primary care support, population health management technology, and integrated care analytics. Understanding the ICB geography — which ICB covers which area, what their priorities are, and who leads their procurement — is now a basic requirement for any supplier in those categories.</p>
+
+    <div class="callout">
+      <p>Many suppliers missed opportunities in 2022 and 2023 because they were still searching for CCG-published notices that no longer existed. If your NHS procurement monitoring has not been updated to reflect ICB names and structures, you are almost certainly missing pipeline.</p>
+    </div>
+
+    <h2>Award Notices and Why They Matter for Suppliers</h2>
+
+    <p>Most suppliers focus their NHS procurement monitoring on live opportunities — notices of contract, invitations to tender, and pre-qualification questionnaires. Award notices, which record the outcome of completed procurements, are widely overlooked. This is a significant strategic error.</p>
+
+    <p>Award notices tell you:</p>
+
+    <ul>
+      <li><strong>Who won</strong> — which suppliers are active in your category and trusted by NHS buyers.</li>
+      <li><strong>What was paid</strong> — the contract value gives a benchmark for pricing and scope.</li>
+      <li><strong>When it ends</strong> — contract start and end dates allow you to calculate when re-procurement is likely. Most NHS contracts run for three to five years, with one or two optional extension periods. A contract awarded in 2022 for three years with a two-year option expires between 2025 and 2027 — a re-procurement notice should appear 12 to 18 months before that date.</li>
+      <li><strong>What the scope covered</strong> — the contract title and CPV codes reveal the buyer's framing of the requirement, which helps you understand how to position for future opportunities.</li>
+    </ul>
+
+    <p>Systematically monitoring award notices and building a forward pipeline of anticipated re-procurements is one of the most underused tactics in NHS bid management. It transforms your approach from reactive — scrambling when a notice appears — to proactive, with six to twelve months of lead time to build relationships and shape requirements.</p>
+
+    <h2>How to Build a Supplier Profile That Wins NHS Business</h2>
+
+    <p>NHS buyers are risk-averse by nature. They are spending public money, subject to audit, and accountable to regulators. A supplier profile that inspires confidence is not about marketing copy — it is about demonstrable capability, accreditation, and track record.</p>
+
+    <h3>Mandatory Accreditations and Certifications</h3>
+
+    <p>Most NHS pre-qualification questionnaires (PQQs) and selection questionnaires will require evidence of specific accreditations. The most commonly required include:</p>
+
+    <ul>
+      <li><strong>ISO 9001</strong> — Quality management systems. Effectively mandatory for clinical and professional services suppliers.</li>
+      <li><strong>ISO 27001</strong> — Information security management. Required for any supplier handling patient data or NHS IT systems.</li>
+      <li><strong>Cyber Essentials or Cyber Essentials Plus</strong> — The UK government's baseline cyber security certification. Required for most NHS digital and data contracts.</li>
+      <li><strong>Data Security and Protection Toolkit (DSPT)</strong> — For suppliers accessing NHS patient data or systems. Self-assessed annually against NHS Digital standards.</li>
+      <li><strong>Equality Act compliance</strong> — Evidence of an equality policy and monitoring regime.</li>
+    </ul>
+
+    <p>Suppliers who lack these certifications at the point of tender will be disqualified from the technical envelope before evaluation begins. Getting them in place before you need them — not after a failed bid — is basic preparation.</p>
+
+    <h3>Social Value</h3>
+
+    <p>Under the Social Value Act 2012 and the Procurement Policy Note 06/20, NHS buyers are required to consider social value in procurements. In practice, most NHS tenders allocate between 10% and 20% of the total quality score to social value commitments. Suppliers who treat this as an afterthought lose marks that could be the difference between winning and losing.</p>
+
+    <p>Effective social value responses are specific and measurable. Vague commitments to "support local communities" score poorly. Concrete commitments — apprenticeship targets, local spend percentages, employment programmes tied to the contract — score well. Understanding the specific social value themes prioritised by the buying NHS organisation (which are usually stated in the tender documents) is essential to crafting a credible response.</p>
+
+    <h3>Track Record and References</h3>
+
+    <p>NHS buyers want evidence that you have delivered comparable contracts at comparable scale. Case studies should be formatted consistently: client name (or anonymised if confidential), contract value, duration, scope, and measurable outcomes. References from NHS clients carry significantly more weight than references from private sector clients when bidding for NHS work.</p>
+
+    <p>If you are new to the NHS market, consider bidding as part of a consortium or as a subcontractor on a larger bid. Building an NHS reference base takes time, but the first one unlocks the rest.</p>
+
+    <div class="cta-inline">
+      <h3>Track every NHS opportunity, automatically</h3>
+      <p>Kestrel monitors Contracts Finder, Find a Tender, NHS SBS, and more — then alerts you to relevant NHS tender alerts before the deadline. No more missed opportunities from manual searches.</p>
+      <a href="/" class="btn">See how Kestrel works</a>
+    </div>
+
+    <h2>Common Mistakes NHS Suppliers Make</h2>
+
+    <p>After reviewing hundreds of failed NHS bids, the same mistakes appear repeatedly. Understanding them is the fastest route to improving your win rate.</p>
+
+    <h3>Missing Pre-Tender Engagement Windows</h3>
+
+    <p>NHS buyers often publish Prior Information Notices (PINs) or run market engagement events before a formal tender is issued. These events allow buyers to test the market and allow suppliers to shape the specification. Suppliers who engage at this stage understand the requirement better, can tailor their offer, and sometimes influence how the contract is structured. Suppliers who only appear at ITT stage are at a systematic disadvantage.</p>
+
+    <h3>Generic Bid Responses</h3>
+
+    <p>NHS evaluation panels read dozens of bids for each procurement. A response that could have been written for any buyer in any sector will not score well. Effective NHS bid management requires understanding the specific commissioner — their strategic plan, their population health challenges, their existing supplier relationships — and reflecting that understanding in every section of the response.</p>
+
+    <h3>Underestimating Evaluation Criteria Weighting</h3>
+
+    <p>NHS tenders publish the weighting between price and quality criteria. It is common to see a 40/60 split — 40% price, 60% quality. Suppliers who spend 80% of their effort on pricing and 20% on quality responses are optimising for the wrong criteria. Read the evaluation criteria and weightings before planning your response, and allocate writing effort proportionally.</p>
+
+    <h3>Incomplete or Incorrect Documentation</h3>
+
+    <p>NHS procurement portals will often reject or disqualify bids that are missing mandatory documents. Common omissions include expired insurance certificates, unsigned declarations, and financial accounts that do not cover the required period. A compliance checklist reviewed 48 hours before submission is not optional — it is the last line of defence against an avoidable disqualification.</p>
+
+    <h3>Ignoring Framework Opportunities</h3>
+
+    <p>Suppliers who focus exclusively on open tenders miss the majority of NHS spend. As noted above, a large proportion of NHS non-clinical and many clinical service categories are covered by frameworks. If you are not on the relevant CCS framework or NHS SBS framework for your category, you are invisible to NHS buyers who are procuring through that route.</p>
+
+    <h3>Poor Deadline Management</h3>
+
+    <p>NHS procurement portals use hard deadlines enforced by automated systems. A submission one minute after the deadline is rejected without exception. NHS bid management must include a submission timeline that targets completion 24 hours before the deadline, with a final compliance check in the remaining time. Relying on the deadline as the target is a race you will eventually lose.</p>
+
+    <h2>How to Track NHS Opportunities Without Missing Deadlines</h2>
+
+    <p>The fundamental problem with manual NHS procurement monitoring is volume and fragmentation. Opportunities are published across Contracts Finder, Find a Tender, NHS SBS, CCS pipeline publications, individual trust procurement portals, and ICB websites. No human process reliably captures all of them without gaps.</p>
+
+    <h3>Set Up Portal Alerts</h3>
+
+    <p>Both Contracts Finder and Find a Tender offer email alert functionality. Set up alerts using relevant CPV codes and keyword combinations. Test your alerts by checking whether past relevant opportunities would have triggered them — this reveals gaps in your keyword strategy early.</p>
+
+    <p>Accept that portal alerts alone will not catch everything. NHS SBS and CCS publish their own pipeline documents and notices separately from the main portals. These require separate monitoring processes.</p>
+
+    <h3>Build a Procurement Calendar</h3>
+
+    <p>Using award notice data, build a forward calendar of anticipated re-procurements. For each relevant contract in your category, record: the buyer, the incumbent supplier, the contract value, the end date, and the likely re-procurement window. Review and update this calendar monthly. It will gradually become your most valuable sales planning tool.</p>
+
+    <h3>Monitor ICB and Trust Pipeline Publications</h3>
+
+    <p>Under transparency obligations, many NHS organisations publish their forward procurement pipeline — a list of contracts they expect to tender in the coming 12 to 18 months. These pipeline documents are often published on buyer profiles on Contracts Finder or on the organisation's own website. They give significant lead time and are underused by most suppliers.</p>
+
+    <h3>Use NHS Procurement Monitoring Tools</h3>
+
+    <p>Manual monitoring across multiple portals is time-consuming and error-prone. NHS procurement monitoring tools aggregate opportunity data from across all relevant sources, apply category and keyword filters, and deliver structured NHS tender alerts on a schedule you control. For any supplier with more than one or two active NHS categories, the time saving justifies the investment many times over.</p>
+
+    <p>The key features to look for in an NHS procurement monitoring tool are: multi-portal coverage (not just Contracts Finder), award notice tracking as well as live opportunities, ICB-level filtering, and reliable notification delivery with enough lead time to prepare a quality response.</p>
+
+    <div class="callout">
+      <p>The suppliers who win most consistently in NHS markets are not necessarily those with the best products or the most competitive prices. They are the ones who know about opportunities early, engage before the tender is published, and submit well-prepared responses on time. Process disciplines the outcome.</p>
+    </div>
+
+    <h2>Understanding the Procurement Act 2023</h2>
+
+    <p>The Procurement Act 2023, which came into force in February 2025, introduced several changes that suppliers should be aware of. The Act created a new central digital platform — the Find a Tender service — as the single point of publication for all covered procurements. It also introduced new notice types, including a Transparency Notice for direct awards, and a mandatory Procurement Pipeline for central government bodies spending over £100 million per year.</p>
+
+    <p>For NHS suppliers, the most significant changes are:</p>
+
+    <ul>
+      <li><strong>Standstill period confirmation</strong> — the standstill period (the period between contract award notification and contract signature, during which unsuccessful bidders can challenge) is now embedded in statute more clearly, providing a firmer basis for legal challenge.</li>
+      <li><strong>Greater SME consideration</strong> — contracting authorities must now have regard to the barriers faced by SMEs and consider how to reduce them. In practice this means more contracts structured to allow SME participation, and a strengthened basis for challenging unnecessarily restrictive specifications.</li>
+      <li><strong>Exclusion grounds</strong> — the Act expanded and clarified the grounds on which suppliers can be excluded, including for poor past performance on public contracts. Maintaining a clean track record on NHS contracts is now more important than ever.</li>
+    </ul>
+
+    <h2>Building Long-Term NHS Supplier Relationships</h2>
+
+    <p>NHS procurement is not transactional in the way that commercial procurement often is. NHS buyers develop trusted relationships with suppliers over time, and those relationships influence how specifications are written, which frameworks are used, and which suppliers are invited to market engagement events. Building these relationships requires sustained effort beyond the bid cycle.</p>
+
+    <p>Practical steps include: attending NHS supply chain events and conferences, engaging with procurement teams during market engagement phases rather than only at tender stage, delivering contracted services in a way that generates strong references, and maintaining contact with senior stakeholders throughout contract delivery. The NHS relationship timeline runs in years, not months. Suppliers who invest in it consistently outperform those who only engage around procurement windows.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>What is the difference between Contracts Finder and Find a Tender?</h3>
+    <p>Contracts Finder covers opportunities above £12,000 and is used for below-threshold and mid-value contracts. Find a Tender (FTS) replaced the EU's TED system post-Brexit and is used for above-threshold contracts — approximately £213,477 for NHS bodies. Both portals carry award notices. Suppliers need to monitor both.</p>
+
+    <h3>What are NHS framework agreements and how do suppliers join them?</h3>
+    <p>NHS framework agreements are pre-approved supplier lists established by bodies like NHS SBS or CCS. Once accepted, NHS organisations can call off contracts directly without running a full tender. Suppliers apply during the framework's open competition window, which is advertised on Find a Tender and the relevant body's portal. Missing the window means waiting for the next re-let, often two or more years away.</p>
+
+    <h3>How did ICBs change NHS procurement?</h3>
+    <p>The Health and Care Act 2022 replaced CCGs with ICBs from July 2022. ICBs now hold commissioning and procurement authority for a wide range of health services. Suppliers must engage with ICB procurement teams, and opportunities are published under ICB names on Contracts Finder and Find a Tender.</p>
+
+    <h3>What are NHS tender alerts and how do they work?</h3>
+    <p>NHS tender alerts are automated notifications sent when a new contract opportunity matching your criteria is published. They can be set up via Contracts Finder and Find a Tender keyword searches, or through third-party NHS procurement monitoring tools that aggregate across multiple portals.</p>
+
+    <h3>Why do award notices matter for NHS suppliers?</h3>
+    <p>Award notices reveal who won contracts and at what value, giving competitors intelligence on incumbent suppliers, likely re-procurement dates, and pricing benchmarks. Monitoring award notices is one of the most underused tactics in NHS procurement monitoring for building a proactive pipeline strategy.</p>
+
+    <h3>What common mistakes do suppliers make when responding to NHS tenders?</h3>
+    <p>The most common mistakes include: missing PQQ deadlines, generic responses that ignore the commissioner's specific priorities, missing mandatory certifications such as ISO 9001 or Cyber Essentials, underestimating the scoring weight given to social value, and submitting close to the deadline without a compliance review.</p>
+
+    <div class="cta-inline">
+      <h3>Never miss an NHS opportunity again</h3>
+      <p>Kestrel is built specifically for NHS procurement monitoring. It tracks Contracts Finder, Find a Tender, NHS SBS, CCS framework pipelines, and ICB procurement notices — then sends you structured NHS tender alerts filtered to your categories. Early warning means better responses and more wins.</p>
+      <a href="/" class="btn">Get started with Kestrel</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0;">&copy; 2026 Alvento Ltd. Kestrel is an NHS supplier intelligence tool. &middot; <a href="/">kestrel.alvento.ltd</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
